@@ -1,0 +1,12 @@
+server:
+  port: 8038
+spring:
+  application:
+    name: swag-home
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+#      defaultZone: http://swag-discovery:8703/eureka/
+      defaultZone: http://localhost:8703/eureka/
