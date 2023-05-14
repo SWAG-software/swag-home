@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: swag-home
+  data:
+    mongodb:
+      uri: mongodb+srv://JuancaJcA:5iNlK1vFPU6KWwpq@labooncluster.ptkenzc.mongodb.net/?retryWrites=true&w=majority
+      database: Software
 
 eureka:
   client:
