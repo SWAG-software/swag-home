@@ -1,2 +1,6 @@
-### Test
-http://localhost:8038/test/64605296e1fa04e44fd4eb4b
+### Swag-artist service (Get All artists)
+http://localhost:8038/home/artist
+### Swag-profile service (Get Playlist by User ID)
+http://localhost:8038/home/profile/playlist/646564830b991786e54f220e
+### Swag-profile service (Get Favorite artists by User ID)
+http://localhost:8038/home/profile/favArtist/646564830b991786e54f220e

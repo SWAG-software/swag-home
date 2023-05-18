@@ -19,7 +19,4 @@ class HomeBL @Autowired constructor(private val artistDTO: ArtistDTO) {
         // DTO
         return artistDTO.findOneById(id)
     }
-    fun getCount(): Int {
-        return artistDTO.findAll().count()
-    }
 }
